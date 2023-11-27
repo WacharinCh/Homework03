@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+body {
+    margin: 0;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    margin: 0;
+    display: flex;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+header nav {
+    display: flex;
+    gap: 40px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.work .work1 {
+    margin-top: 130px;
+    position: relative;
+    left: -400px;
+    color: #FF4742;
+    font-size: 25px;
+}
+
+.work .topic1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.work .topic1 .topic1-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic1 {
+    width: 900px;
+    height: 250px;
+    gap: 50px;
+    align-items: center;
+}
+
+.topic1 .imgtopic {
+    object-fit: scale-down;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 1px 3px 5px 1px #6b6b6b;
+}
+
+.inline h2 {
+    display: inline;
+}
+
+.work .topic2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.work .topic2 .topic2-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic2 {
+    width: 900px;
+    height: 250px;
+    gap: 50px;
+    align-items: center;
+}
+
+.topic2 .imgtopic {
+    object-fit: scale-down;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 1px 3px 5px 1px #6b6b6b;
+}
+
+.work .topic3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.work .topic3 .topic3-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic3 {
+    width: 900px;
+    height: 250px;
+    gap: 50px;
+    align-items: center;
+}
+
+.topic3 .imgtopic {
+    object-fit: scale-down;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 1px 3px 5px 1px #6b6b6b;
+}
+
+.work .topic4 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.work .topic4 .topic4-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic4 {
+    width: 900px;
+    height: 250px;
+    gap: 50px;
+    align-items: center;
+}
+
+.topic4 .imgtopic {
+    object-fit: scale-down;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 1px 3px 5px 1px #6b6b6b;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffc7c5;
+
+}
+
+footer .linkSC nav {
+    display: flex;
+    gap: 30px;
+}
